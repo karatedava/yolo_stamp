@@ -1,0 +1,8 @@
+path: /home/diaz_asian/StampDetector/data/processed   # root folder (optional but nice to have)
+train: images/train
+val: images/val
+# test: images/test   # (optional)
+
+nc: 1
+names:
+  0: stamp

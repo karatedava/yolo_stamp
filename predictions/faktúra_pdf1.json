@@ -1,0 +1,16 @@
+{
+  "image_width": 2479,
+  "image_height": 3504,
+  "detections": [
+    {
+      "class": "stamp",
+      "confidence": 0.9068722128868103,
+      "bbox": {
+        "x1": 274,
+        "y1": 555,
+        "x2": 387,
+        "y2": 633
+      }
+    }
+  ]
+}

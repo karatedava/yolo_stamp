@@ -1,0 +1,7 @@
+path: /home/diaz_asian/StampDetector/data/processed_640/images
+train: 'test'
+val: 'test'
+test: 'test'
+
+nc: 1
+names: ['stamp']
