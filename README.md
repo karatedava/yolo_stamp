@@ -9,7 +9,7 @@ First, make sure **uv** is installed: https://docs.astral.sh/uv/getting-started/
 ```bash
 git clone https://github.com/karatedava/yolo_stamp.git
 cd yolo_stamp
-uv sync --all-extras --dev
+uv sync 
 ```
 
 ## Running the CLI
@@ -25,5 +25,3 @@ This will show all available commands and options.
 ```bash
 uv run run_yolo_CLI.py --input path/to/your/image.jpg
 ```
-
-Enjoy stamping with YOLO!
