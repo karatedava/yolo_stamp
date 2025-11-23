@@ -7,8 +7,8 @@ Stamp detection via YOLO
 First, make sure **uv** is installed: https://docs.astral.sh/uv/getting-started/installation/
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/karatedava/yolo_stamp.git
+cd yolo_stamp
 uv sync --all-extras --dev
 ```
 
