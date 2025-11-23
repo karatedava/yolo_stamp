@@ -92,7 +92,6 @@ def test_set_eval(model:YOLO, test_imgs_path:Path, test_labels_path:Path, test_s
     print("\n=== Counting Performance ===")
     print(f"Mean Absolute Error (count)   : {mae:.4f}")
     print(f"Exact count correct        : {exact_pct:.1f}% ({exact_matches}/{len(images)}) images)")
-    print(f"Average |pred − gt|         : {mae:.2f} stamps per image")
 
     ### BOUNDING BOX REGRESSION EVALUATION ###
 

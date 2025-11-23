@@ -14,12 +14,12 @@ def resize_and_pad(img: np.ndarray, target_size:int) -> Tuple[np.ndarray, float,
     then pad with white borders (255) to exactly target_size × target_size.
     
     Args:
-        img: Input image as uint8 numpy array (H, W) or (H, W, C)
+        img: Input image
         target_size: Desired output square size (both width and height)
     
     Returns:
-        padded: Final image of shape (target_size, target_size, C) with white padding
-        scale: Scaling factor applied (target_size / max(original_h, original_w))
+        padded: Final image
+        scale: Scaling factor
         (left, top): Padding applied on left and top sides
     """
 
@@ -41,12 +41,12 @@ def predict_and_draw(original_img: np.ndarray, results:List, target_size:int, th
 
     """
         Draw detection boxes on the original image by reversing the resize+pad transformation
-        applied during inference (e.g., 640×640 letterboxed input).
+        applied during inference
 
         Args:
-            original_img: Original input image (H, W, 3) as uint8 np.ndarray
-            results: List of ultralytics YOLO Results objects (usually length 1 for single image)
-            target_size: The square size used during preprocessing (default 640)
+            original_img: Original input image
+            results: List of ultralytics YOLO Results
+            target_size: The square size used during preprocessing
             thr: Confidence threshold for displaying detections
 
         Returns:

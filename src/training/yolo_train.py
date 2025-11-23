@@ -53,7 +53,7 @@ CUSTOM_ARGS = {
     "close_mosaic": 15,           # last 15 epochs without mosaic → clean boxes
     "cache": "disk",
     "amp": True,
-    "augment": True,              # keeps test-time augmentation
+    "augment": True,
     "plots": True,
     "save": True,
 }

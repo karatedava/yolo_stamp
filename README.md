@@ -23,7 +23,7 @@ This will show all available commands and options.
 ## Quick Example
 
 ```bash
-uv run run_yolo_CLI.py --image path/to/your/image.jpg
+uv run run_yolo_CLI.py --input path/to/your/image.jpg
 ```
 
 Enjoy stamping with YOLO!
