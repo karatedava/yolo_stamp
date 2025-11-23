@@ -5,7 +5,7 @@ import cv2
 from src.preprocessing import yolop
 from pathlib import Path
 
-# ============== CONFIG (change only these) ==============
+# ============== CONFIG ==============
 MODEL_PATH = Path("src/trained_models")
 INPUT_SIZE = 640
 
